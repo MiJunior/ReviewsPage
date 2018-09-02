@@ -2,7 +2,7 @@
 session_start();
 require_once 'db/db_connector.php';
 require_once  'parts/head.php';
-require_once 'showpost.php';
+require_once 'controllers/showpost.php';
 
 ?>
 
