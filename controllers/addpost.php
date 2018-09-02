@@ -1,5 +1,5 @@
 <?php
-require_once('db/db_connector.php');
+require_once('../db/db_connector.php');
 $imgDir = "img";        // каталог для хранения изображений
 @mkdir($imgDir, 0777);  // создаем, если его еще нет
 
