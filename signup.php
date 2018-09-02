@@ -2,7 +2,6 @@
 session_start();
 require_once 'db/db_connector.php';
 require_once  'parts/head.php';
-require_once 'showpost.php';
 if(isset($_SESSION["session_username"])){
     // вывод "Session is set"; // в целях проверки
     header("Location: login.php");
