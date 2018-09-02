@@ -21,7 +21,7 @@ if(isset($_POST['doLogin'])){
         if($num_rows_login!=0){
             $_SESSION['session_username']=$username;
             $_SESSION['role_id'] = $role_id['role_id'];
-            header("Location: ../index.php");
+            header("Location: ../../index.php");
             }else {
                 echo "Invalid login or password";
             }
