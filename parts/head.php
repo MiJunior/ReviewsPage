@@ -35,7 +35,7 @@
                     <?=$_SESSION["session_username"]?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="auth/logout.php">Log out</a>
+                        <a class="dropdown-item" href="controllers/auth/logout.php">Log out</a>
                         <?php if($_SESSION["role_id"]==1){?>
                         <hr>
                         <a class="dropdown-item" href="admin.php">Admin</a>
