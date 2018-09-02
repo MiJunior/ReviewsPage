@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../lib/db_connector.php';
+require_once '../../db/db_connector.php';
 
 if(!empty($_SESSION["session_username"])){
     // вывод "Session is set"; // в целях проверки

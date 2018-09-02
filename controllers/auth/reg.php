@@ -1,5 +1,5 @@
 <?php
-require_once '../lib/db_connector.php';
+require_once '../../db/db_connector.php';
 if(isset($_POST['doReg'])){
     $errors = [];
 
