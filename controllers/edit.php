@@ -1,6 +1,5 @@
 <?php
-require_once '../admin.published.php';
-require_once 'db_connector.php';
+require_once '../db/db_connector.php';
 if(isset($_POST['edit'])){
     try{
     $update = $pdo->prepare("UPDATE `post` SET `published` = (:published) WHERE `id` = (:id)");
